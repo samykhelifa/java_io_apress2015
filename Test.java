@@ -4,7 +4,9 @@ public class Test  {
 
      public static void main(String[] args) {
         File f= new File("root/java_io_apress2015/samy.txt");
-          System.out.println(A.s);
+         FileSystem fs = FileSystems.getDefault();
+          
+          System.out.println(fs);
 }
 }
 class A{
